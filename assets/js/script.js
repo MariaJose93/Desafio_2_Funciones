@@ -1,32 +1,5 @@
-//1.- Transformar a una función de expresión.
-/*
-function example(a, b, c){
-  return a+b+c
-}
-*/
-//Transformación 
 
-example = function(a,b,c){
-  return a+b+c
-}
-
-//2.- Transformas a una arrow function de una línea.
-/*
-let suma = function(a, b){
-  return a + b
-}
-*/
-//Transformación.
-
-let suma = (a,b) => a + b
-
-// function pintar(){
-//   ele.style.backgroundColor = 'yellow'
-// }
-// const ele = document.getElementById("ele1")
-// ele.addEventListener("click", pintar);
-
-//2-2 y 2-3.-
+//2-2 y 2-3.- Pintar con un click y dejar un color por defecto
 
 const ele = document.getElementById("ele1");
 
@@ -39,7 +12,7 @@ ele.addEventListener("click", function(){
   pintar('yellow')
 });
 
-// 3.-
+// 3.- Creación de cuadros 
 
 
 function pintarnegro(){
@@ -80,7 +53,7 @@ document.addEventListener('keydown', function (event) {
 });
 
 function agregarCuadro(color) {
-  console.log('Agregando cuadro con color:', color);
+  //console.log('Agregando cuadro con color:', color);
   const contenedor = document.getElementById('contenedor');
   const nuevoCuadro = document.createElement('div');
   nuevoCuadro.className = 'cuadro';
