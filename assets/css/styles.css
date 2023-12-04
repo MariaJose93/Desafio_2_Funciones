@@ -1,0 +1,34 @@
+body {
+    background:linear-gradient(to right,plum, lemonchiffon, lightsteelblue  );
+    
+}
+
+.cuadros-color{
+    width: 200px;
+    height: 200px;
+    border: solid black;
+}
+
+#cuadro-1{
+    background-color: blue;
+}
+#cuadro-2{
+    background-color: red;
+}
+#cuadro-3{
+    background-color: green;
+}
+#cuadro-4{
+    background-color: yellow;
+}
+#key{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: solid black;
+}
+.cuadro{
+    width: 200px;
+    height: 200px;   
+    border: solid black;
+}
